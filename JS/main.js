@@ -258,13 +258,13 @@ function mostrarProductos(productos, contenedor) {
                 <button class="botonesCompra">Comprar</button>
             </div>`;
     });
-    botonComprar();  
 }
 
 document.addEventListener("DOMContentLoaded", () => {
     mostrarProductos(gomasDonic, productosGomas);
     mostrarProductos(maderasDonic, productosMaderas);
     mostrarProductos(pelotas, productosPelotas);
+    botonComprar();
     funcionActualizar(); 
 });
 
