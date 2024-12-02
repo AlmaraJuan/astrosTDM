@@ -3,22 +3,33 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Astros TDM</title>
+    <title>Tienda Astros TDM</title>
+    <link rel="stylesheet" href="./CSS/style.css">
 </head>
 <body>
-    <h1>¡Bienvenido a Astros Tenis de Mesa</h1><br>
-    <p>Este sistema le permite gestionar altas y bajas de alumnos, así como asignar o quitar turnos de entrenamiento tanto a profesores como alumnos</p><br>
-
-    <p>
-    Alumnos actuales: <br>
-    Nombre: Jorge Dominguez, codigo: 1, turnos: Lunes, Jueves <br>
-    Nombre: Camila Mariana, codigo: 2, turnos: Jueves <br>
-    Nombre: Norberto Walter, codigo: 3, turnos: Miércoles, Viernes <br>
-    Nombre: Natalio Garci, codigo: 4, turnos: Viernes <br>
-    Nombre: Damian Buzzone, codigo: 10 turnos: Lunes <br>
-    </p>
-
-
-    <script src="./main.js"></script>
+    <div id="iconoCarrito">
+        <img src="https://static.vecteezy.com/system/resources/previews/018/887/512/non_2x/shopping-cart-icon-png.png" alt="Carrito de compras">
+    </div>
+    <div id="carrito">
+        <div>
+            <h3>Productos agregados:</h3>
+            <div id="productosCarrito">
+            </div>
+        </div>
+        <div id="total">$0</div>
+    </div>
+    <h1>Tienda Astros Tenis de Mesa</h1>
+    <div class="main">
+        <h2>Gomas Donic</h2>
+        <div class="productos" id="productosGomas">
+        </div>
+        <h2>Maderas Donic</h2>
+        <div class="productos" id="productosMaderas">
+        </div>
+        <h2>Pelotas</h2>
+        <div class="productos" id="productosPelotas">
+        </div>
+    </div>
+    <script src="./js/main.js"></script>
 </body>
 </html>

@@ -1,0 +1,189 @@
+:root {
+    --color-light-blue: #e8f4ff;
+    --color-medium-blue: #4da8da;
+    --color-dark-blue: #003f88;
+    --color-black: #121212;
+    --color-gray: #f4f4f4;
+    --color-white: #ffffff;
+    --color-accent: #00b300;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: var(--color-gray);
+    color: var(--color-black);
+    line-height: 1.6;
+}
+
+h1 {
+    text-align: center;
+    color: var(--color-dark-blue);
+    margin-top: 20px;
+    font-size: 2.5rem;
+}
+
+header {
+    background-color: var(--color-dark-blue);
+    color: var(--color-white);
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+#iconoCarrito {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    background-color: var(--color-accent);
+    color: var(--color-white);
+    padding: 10px 15px;
+    border-radius: 50%;
+    font-size: 1.5rem;
+    cursor: pointer;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    z-index: 1000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: transform 0.3s ease, background-color 0.3s ease;
+}
+
+#iconoCarrito:hover {
+    background-color: var(--color-dark-blue);
+    transform: scale(1.1);
+}
+
+#iconoCarrito img {
+    width: 25px;
+    margin-right: 5px;
+}
+
+#carrito {
+    position: fixed;
+    height: 100vh;
+    width: 350px;
+    background-color: var(--color-white);
+    top: 0;
+    right: -100%;
+    transition: right 0.5s ease-in-out;
+    box-shadow: -5px 0 15px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    overflow-y: auto;
+}
+
+#carrito.active {
+    right: 0;
+}
+
+#total {
+    background-color: var(--color-dark-blue);
+    color: var(--color-white);
+    padding: 15px;
+    border-radius: 5px;
+    font-size: 1.2rem;
+    margin-top: 20px;
+    text-align: center;
+}
+
+.main {
+    padding: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.productos {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 15px;
+    padding: 20px;
+}
+
+.producto {
+    background-color: var(--color-white);
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    padding: 10px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    max-width: 250px;
+}
+
+.producto:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.producto img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+.producto h3 {
+    color: var(--color-dark-blue);
+    font-size: 1rem;
+    margin: 5px 0;
+}
+
+.producto p {
+    font-size: 0.9rem;
+    margin: 5px 0;
+}
+
+button {
+    background-color: var(--color-accent);
+    color: var(--color-white);
+    border: none;
+    padding: 8px 12px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 0.9rem;
+    margin-top: 10px;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: var(--color-dark-blue);
+}
+
+h2 {
+    font-size: 2rem;
+    font-weight: 600; 
+    color: #333;
+    text-align: center; 
+    margin: 20px 0; 
+    position: relative; 
+}
+
+h2::before {
+    content: ''; 
+    position: absolute;
+    width: 50%; 
+    height: 2px;
+    background-color: #3498db;
+    bottom: -10px;
+    left: 50%;
+    transform: translateX(-50%); 
+}
+
+h2 span {
+    background-color: #fff; 
+    padding: 0 10px; 
+}
+
+@media (min-width: 768px) {
+    .productos {
+        grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    }
+}
