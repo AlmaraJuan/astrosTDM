@@ -1,0 +1,156 @@
+{
+    "gomasDonic" : [
+        {
+            "id": 1,
+            "nombre": "Donic Blufire M1",
+            "velocidad": "8/10",
+            "spin": "10/10",
+            "img": "https://cdn.megaspin.net/store/images/products/zoom_d-bluefire-m1.jpg",
+            "precio": 120000
+        },
+        {
+            "id": 2,
+            "nombre": "Donic Bluestorm Z1",
+            "velocidad": "10/10",
+            "spin": "9/10",
+            "img": "https://cdn.megaspin.net/store/images/products/zoom_d-bluestorm-z1.jpg",
+            "precio": 75000
+        },
+        {
+            "id": 3,
+            "nombre": "Donic Barracuda",
+            "velocidad": "6/10",
+            "spin": "7/10",
+            "img": "https://cdn.megaspin.net/store/images/products/zoom_d-baracuda.jpg",
+            "precio": 50000
+        },
+        {
+            "id": 4,
+            "nombre": "Donic Bluefire JP01",
+            "velocidad": "8/10",
+            "spin": "9/10",
+            "img": "https://cdn.megaspin.net/store/images/products/zoom_d-bluefire-jp-01.jpg",
+            "precio": 60000
+        },
+        {
+            "id": 5,
+            "nombre": "Donic Bluestorm Z2",
+            "velocidad": "8/10",
+            "spin": "8/10",
+            "img": "https://cdn.megaspin.net/store/images/products/zoom_d-bluestorm-z2.jpg",
+            "precio": 100000
+        },
+        {
+            "id": 6,
+            "nombre": "Donic Vario",
+            "velocidad": "8/10",
+            "spin": "6/10",
+            "img": "https://cdn.megaspin.net/store/images/products/zoom_d-vario.jpg",
+            "precio": 80000
+        },
+        {
+            "id": 7,
+            "nombre": "Donic Acuda S1",
+            "velocidad": "8/10",
+            "spin": "7/10",
+            "img": "https://cdn.megaspin.net/store/images/products/zoom_d-acuda-s1.jpg",
+            "precio": 40000
+        },
+        {
+            "id": 8,
+            "nombre": "Desto F3",
+            "velocidad": "4/10",
+            "spin": "10/10",
+            "img": "https://cdn.megaspin.net/store/images/products/zoom_d-destof3.jpg",
+            "precio": 45000
+        },
+        {
+            "id": 9,
+            "nombre": "Donic Bluefire M2",
+            "velocidad": "8/10",
+            "spin": "6/10",
+            "img": "https://cdn.megaspin.net/store/images/products/zoom_d-bluefire-ms2.jpg",
+            "precio": 85000
+        },
+        {
+            "id": 10, 
+            "nombre": "Donic Blufire JP02",
+            "velocidad": "6/10",
+            "spin": "8/10",
+            "img": "https://cdn.megaspin.net/store/images/products/zoom_d-bluefire-jp-02.jpg",
+            "precio": 42000
+        }
+    ],
+
+    "maderasDonic" : [
+        {
+            "id": 101,
+            "nombre": "Donic Carbospeed",
+            "dureza": "4/5",
+            "capas": "4",
+            "img": "https://cdn.megaspin.net/store/images/products/zoom2_d-ovtcharov-cs.jpg?v=2",
+            "precio": 40000
+        },
+        {
+            "id": 102,
+            "nombre": "Donic Senso Carbon",
+            "dureza": "3/5",
+            "capas": "4",
+            "img": "https://cdn.megaspin.net/store/images/products/zoom_d-original-senso-v1.jpg",
+            "precio": 40000
+        },
+        {
+            "id": 103,
+            "nombre": "Donic Ultra Carbon",
+            "dureza": "4/5",
+            "capas": "5",
+            "img": "https://cdn.megaspin.net/store/images/products/zoom_d-waldner-senso-ultra-c.jpg",
+            "precio": 45000
+        },
+        {
+            "id": 104,
+            "nombre": "Donic Waldner",
+            "dureza": "5/5",
+            "capas": "7",
+            "img": "https://cdn.megaspin.net/store/images/products/zoom_d-original-1-senso.jpg",
+            "precio": 75000
+        },
+        {
+            "id": 105,
+            "nombre": "Donic Burn OFF",
+            "dureza": "4/5",
+            "capas": "6",
+            "img": "https://cdn.megaspin.net/store/images/products/zoom2_d-burn-off.jpg",
+            "precio": 70000
+        },
+        {
+            "id": 106,
+            "nombre": "Donic Allplay",
+            "dureza": "2/5",
+            "capas": "3",
+            "img": "https://cdn.megaspin.net/store/images/products/zoom2_d-app.jpg",
+            "precio": 20000
+        }
+    ],
+
+    "pelotas" : [
+        {
+            "id": 201,
+            "nombre": "Butterfly 3 stars - 6 pack",
+            "img": "https://cdn.megaspin.net/store/images/products/zoom2_b-r40p-3.jpg",
+            "precio": 10000
+        },
+        {
+            "id": 202,
+            "nombre": "Nittaku 3 stars - 6 pack",
+            "img": "https://cdn.megaspin.net/store/images/products/zoom_nitt-40p-3-12.jpg",
+            "precio": 5000
+        },
+        {
+            "id": 203,
+            "nombre": "DHS 3 stars - 6 pack",
+            "img": "https://cdn.megaspin.net/store/images/products/zoom_dh-40-plus-3-6.jpg",
+            "precio": 7500
+        }
+    ]
+}

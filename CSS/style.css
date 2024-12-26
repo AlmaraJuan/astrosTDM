@@ -76,12 +76,20 @@ header {
     padding: 20px;
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    justify-content: flex-start; /* Los productos se alinean al principio */
     overflow-y: auto;
 }
 
 #carrito.active {
     right: 0;
+}
+
+#productosCarrito {
+    flex-grow: 1; /* Esto hace que los productos ocupen el espacio restante */
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Centra los productos horizontalmente */
+    gap: 15px; /* Espacio entre los productos */
 }
 
 #total {
@@ -90,8 +98,20 @@ header {
     padding: 15px;
     border-radius: 5px;
     font-size: 1.2rem;
-    margin-top: 20px;
     text-align: center;
+    margin-bottom: 10px;
+    margin-top: 30px;
+}
+
+#finalizarCompra {
+    background-color: var(--color-dark-blue);
+    color: var(--color-white);
+    padding: 15px;
+    border-radius: 5px;
+    font-size: 1.2rem;
+    text-align: center;
+    cursor: pointer;
+    margin-top: 10px;
 }
 
 .main {
